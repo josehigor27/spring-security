@@ -1,6 +1,6 @@
 package br.com.springboot.security.repositories;
 
-import br.com.springboot.security.model.Product.Product;
+import br.com.springboot.security.model.product.Product;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

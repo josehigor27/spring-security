@@ -1,4 +1,4 @@
-package br.com.springboot.security.model.Product;
+package br.com.springboot.security.model.product;
 
 
 import jakarta.persistence.*;

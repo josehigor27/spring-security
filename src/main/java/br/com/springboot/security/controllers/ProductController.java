@@ -1,7 +1,7 @@
 package br.com.springboot.security.controllers;
 
-import br.com.springboot.security.model.Product.Product;
-import br.com.springboot.security.model.Product.ProductRequestDTO;
+import br.com.springboot.security.model.product.Product;
+import br.com.springboot.security.model.product.ProductRequestDTO;
 import br.com.springboot.security.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
