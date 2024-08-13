@@ -1,11 +1,13 @@
 package br.com.springboot.security.model.Product;
 
+
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 public record ProductRequestDTO(
         @NotBlank
         String name,
-        @NotBlank
+        @NotNull
         Integer price
 ) {
 }

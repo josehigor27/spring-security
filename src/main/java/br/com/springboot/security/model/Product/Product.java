@@ -20,6 +20,9 @@ public class Product {
         this.price = requestDTO.price();
     }
 
+    public Product(){
+
+    }
     public String getId() {
         return id;
     }
